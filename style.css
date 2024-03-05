@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.nav-link:hover {
+    border-top: 3px rgb(206, 165, 37) solid;
+    height: 20px;
+    
+}
+
+.navbar {
+    background-color: rgb(146, 137, 112);
+}
+
+
+.home {
+    position: relative;
+
+}
+
+.overlay-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 600px;
+}
+
+.overlay {
+    height: 650px;
+    background-color: black;
+    opacity: 0.4;
+    
+}
+
+.overlay img {
+    height: 650px;
+    background-size: cover;
+    opacity: 0.2;
+}
+
+.text-overlay {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 200px;
+}
+
+.text-overlay h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 80px;
+    color: whitesmoke;
+    letter-spacing: -2px;
+    text-shadow: 5px 4px 4px 4px black;
+}
+
+.text-overlay p {
+    font-size: 24px;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    color: rgb(240, 205, 101);
+    text-shadow: 5px 4px 4px 4px black;
+}
+
+.icon-overlay p {
+    position: absolute;
+    top: 600px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+
+
+/* Content box */
+
+.row-1{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(147, 147, 147);
+    margin: 0;
+    letter-spacing: 1px;
+    line-height: 18px;
+    width: 500px;
+    cursor: pointer;
+}
+
+.row-2 h2{
+    color: rgb(206, 165, 37);
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+.row-6 p {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(25, 25, 25);
+    line-height: 36px;
+    text-align: justify;
+}
+
+.page-number button:hover {
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 0px 2px 0px 0px rgb(177, 176, 176);
+}
+
+.content-box button:hover {
+    border: 1px solid rgb(0, 0, 0);
+}
